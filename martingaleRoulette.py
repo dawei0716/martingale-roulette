@@ -37,7 +37,7 @@ def simulateMultipleTrial(bankroll, baseWager, p, roundLimit, goal, numTrial):
 		f'Out of {numTrial} simulations, {numSuccess} simulations surpassed ${goal} for a successRate of {successRate}')
 
 #Starting with $100, base wager $1, probability of winning: 50%, max 9999 rounds per simulation, test if it reaches $150, simulate 100 times.   
-simulateMultipleTrial(100, 1, .5, 9999, 200, 1000)
+simulateMultipleTrial(100, 1, .5, 9999, 150, 100)
 
 
 
